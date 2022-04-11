@@ -43,6 +43,9 @@
 }
 .container-man-hinh-nho .noi-dung .hinh-anh img{
     width: 100%;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 .container-man-hinh-nho .noi-dung .close{
     position: absolute;

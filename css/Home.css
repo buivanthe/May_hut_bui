@@ -107,21 +107,22 @@ body{
     height: 80px;
     display: flex; 
     position: relative;
+    background-color: #fe0000;
 }
 
-#header .logo{
-    width: 126px;
-    margin-left: 20px;
+/* #header .logo{
+    width: 10px;
+    margin-left: 20px; */
 }
 #header .logo img{
     width: 128px;
     margin-top: 10px;
 }
 #header p{
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 78px;
     margin-left: 6px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 #header .icongiohang{
@@ -287,6 +288,7 @@ body{
 .product-2 .text a p
 {
     font-size: 20px;
+    padding: 10px;
 }
 .text-top .product-1 a p,
 .product-2 .text a p,
@@ -365,10 +367,18 @@ body{
     width: 500px;
     margin-top: 6%;
 }
-.product-2 .text p{
-    margin-top: 3%;  
-    font-size: 18px;
+
+.product-2 .text {
+    padding-top: 30px;
 }
+
+.product-2 .text ul {
+    margin-top: 5%;  
+    font-size: 18px;
+    /* padding-top: 50px; */
+    line-height: 30px;
+}
+
 .product-2 .text button {
     
     position: absolute;

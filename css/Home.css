@@ -107,22 +107,22 @@ body{
     height: 80px;
     display: flex; 
     position: relative;
-    background-color: #fe0000;
+    /* background-color: #fe0000; */
 }
 
-/* #header .logo{
-    width: 10px;
-    margin-left: 20px; */
+#header .logo{
+    width: 126px;
+    margin-left: 20px;
 }
 #header .logo img{
     width: 128px;
     margin-top: 10px;
 }
 #header p{
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 78px;
     margin-left: 6px;
-    /* opacity: 0.7; */
+    opacity: 0.7;
 }
 
 #header .icongiohang{

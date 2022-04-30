@@ -22,7 +22,7 @@
     background-color: white;
     transition: 0.5s;
 }
-#content-m50{
+#content-r8{
     width: 100%;
 }
 
@@ -62,12 +62,12 @@
     width: 70%;
 }
 
-#content-m50 > img{
+#content-r8 > img{
     width: 100%;
     margin-bottom: 3%;
 }
 
-#content-m50 img.quayphim-4k{
+#content-r8 img.quayphim-4k{
     width: 80% !important;
     margin:0 10%;
 }

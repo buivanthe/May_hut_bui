@@ -24,11 +24,18 @@
 }
 #content-r8{
     width: 100%;
+    /* padding: auto; */
+    /* clear: both; */
+    
 }
 
 #content-1{
-    width: 100%;
-    min-height: 400px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    /* width: 100%; */
+    /* min-height: 400px;
+    margin-top: 20px; */
 }
 
 #content-1 .text{
@@ -45,23 +52,25 @@
 #content-1 .text p{
     margin: 3% 0 3% 7%;
 }
-#content-1 .text ul{
+/* #content-1 .text ul{
     list-style-type: square !important;
     margin: 3% 0 3% 10%;
-}
-#content-1 .text li{
+} */
+/* #content-1 .text li{
     margin-top: 1%;
-}
-#content-1 .imgs{
-    display: flex;
+} */
+#content-1 img{
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+   width: 1180px;
+   height: 820px;
 }
-
+/* 
 #content-1 .imgs img {
     width: 70%;
-}
-
+} */
+/* 
 #content-r8 > img{
     width: 100%;
     margin-bottom: 3%;
@@ -70,22 +79,45 @@
 #content-r8 img.quayphim-4k{
     width: 80% !important;
     margin:0 10%;
-}
+} */
 
 #content-2{
-    width: 80%;
-    margin: 0 10%;
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    /* width: 100%; */
+    /* min-height: 400px;
+    margin-top: 20px; */
 }
 
-#content-2 h3{
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 1%;
+#content-2 .text{
+
+}
+#content-2 .text h3{
+    margin: 3% 0 3% 7%;
+    color:  rgba(0, 0, 0, 0.5);
+}
+#content-2 .text p{
+    margin: 3% 0 3% 7%;
+}
+/* #content-2 .text ul{
+    list-style-type: square !important;
+    margin: 3% 0 3% 10%;
+} */
+/* #content-1 .text li{
+    margin-top: 1%;
+} */
+#content-2 img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 1180px;
+    height: 820px;
 }
 
 #content-3{
-    width: 80%;
-    margin: 5% 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #content-3 .text{
@@ -104,9 +136,22 @@
 }
 
 #content-3 .imgs img.img2{
-    width: 90%;
+    width: 580px;
     float: left;
 }
-.text-top .product-1{
+/* .text-top .product-1{
     min-height: 600px !important;
+} */
+
+#content-4{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#content-4 p a{
+    color: #ed3324!important;
+    transition: all .2s ease!important;
 }

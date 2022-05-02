@@ -57,9 +57,11 @@
                         <div class="tieu-de">
                             <h4 class="text-header-dangnhap">Đăng Nhập</4>
                         </div>
+
                         <div class="logo">
-                            <!-- <img src="../img/Untitled-1.png" alt=""> -->
+
                         </div>
+                        
                         <div class="form">
                             <table>
                                 <tr>
@@ -119,10 +121,10 @@
     <div class="nav-fix">
         <div id="nav">
             <ul>
+                <li><a href="../html/Home.html">Home</a></li>
                 <li><a href="../html/San_pham.html">Sản phẩm</a></li>
-                <li><a href="../html/Tin_tuc.html">Tin tức và ấn phẩm</a></li>
+                <li><a href="../html/Tin_tuc.html">Tin tức</a></li>
                 <li><a href="../html/Su_kien.html">Sự kiện</a></li>
-                <li><a href="../html/Lien_he.html">Liên hệ</a></li>
                 <li><a href="../html/Form-dang-ky.html">Đăng ký</a></li>
                 <li><a href="../html/sitemap.html">Site Map</a></li>
             </ul>
@@ -131,15 +133,42 @@
     </div>
     <div id="nav-phu">
         <div class="thanhtoan">
-            <a href="../html/Gio_Hang.html"> VND  7.990.000</a>
+            <a href="../html/Gio_Hang.html"><b>GBL</b> VND 7,990,000</a>
             <a href="../html/Gio_Hang.html">Giỏ Hàng</a>
         </div>
     </div>
 
     <div id="content-r8">
+        <div id="content-0" class="row">
+                <h1>Robot hút bụi Rapido R8S</h1>
+
+                <div id="khoi-slider">
+                    <div id="slider">
+                        <img id="img" onclick="changeImage1()"
+                        src="../image/Chitiet_Rapido_r8/R8_1.jpg" alt="" width="1000px" height="500px">
+                    </div>
+                 </div>
+    
+                <script>
+                    var index = 1;
+                    changeImage1 = function () {
+                        var imgs = [".../image/Chitiet_Rapido_r8/R8_1.jpg",
+                                    "../image/Chitiet_Rapido_r8/R8_2.jpg",
+                                    "../image/Chitiet_Rapido_r8/R8_3.jpg",
+                                    "../image/Chitiet_Rapido_r8/R8_4.jpg"
+                                ];
+                        document.getElementById('img').src = imgs[index];
+                        index++;
+                        if (index == 4) {
+                            index = 0;
+                        }
+                    }
+                    setInterval(changeImage1, 1700);
+                </script>
+        </div> 
+
         <div id="content-1" class="row">
             <div class="text">
-                <h1>Robot hút bụi Rapido R8S</h1>
                 <h3>Tạo tường ảo bằng cách vạch trên bản đồ</h3>
                 <p>Robot hút bụi Rapido R8S có khả năng tạo tường
                  ảo bằng cách vạch trên bản đồ mà robot quét được, 
@@ -163,40 +192,6 @@
                 <img src="../image/Chitiet_Rapido_r8/cambien_vacham.jpg" alt="" >
             </div>
         </div>  
-                <!-- <ul>
-                    <li>Tăng tương tác video với live-stream trực tiếp lên Youtube từ máy ảnh</li>
-                    <li>Quay phim 4K chiều dọc theo chuẩn mới của mạng xã hội (tiktok)</li>
-                    <li>kết nối không dây với smartphone và hệ thống dữ liệu đám mây.</li>
-                </ul> -->
-          
-
-            <!-- <img src="../image/Chitiet_Rapido_r8/taotuongao.jpg" alt="" width="425px" height="300px"> -->
-            
-            <!-- <div class="imgs col col-hafl">
-                <img src="../image/Chitiet_Rapido_r8/taotuongao.jpg" alt="" >
-            
-            </div> -->
-            <!--
-            <script>
-
-                var index = 1;
-                changeImage = function () {
-                    var imgs = ["../image/Chitiet_Rapido_r8/R8_1.jpg",
-                        "../image/Chitiet_Rapido_r8/R8_2.jpg",
-                        "../image/Chitiet_Rapido_r8/R8_3.jpg",
-                        "../image/Chitiet_Rapido_r8/R8_4.jpg"
-                    ];
-                    document.getElementById('img').src = imgs[index];
-                    index++;
-                    if (index == 8) {
-                        index = 0;
-                    }
-                }
-                setInterval(changeImage, 1000);
-            </script> -->
-        <!-- <img src="../img/M50/a65014503f0d4fbfa97d92aa63215c35_M50MII-vlog-banner.jpg" alt="">
-        <img class="quayphim-4k" src="../img/M50/f36a22b0ba1f4209bd5f3166a08d633e_4K-large-image.jpg" alt=""> -->
-
         
         <div id="content-3" class="row">
             <div class="text col col-hafl">
@@ -244,73 +239,6 @@
                 Tìm hiểu thêm: <a href="#">ROBOT HÚT BỤI CÓ GÌ MÀ NHÀ NHÀ NGƯỜI NGƯỜI ĐỔ XÔ ĐI SẮM?</a></p>
     
         </div>
-        
-        <!-- <div id="content-3" class="row">
-            <div class="text col col-hafl">
-                <h3>Cảm biến độ cao</h3>
-                <p>Robot hút bụi Rapido R8S có một tính năng rất linh hoạt đó chính là phát hiện độ cao như bậc cầu thang. Khi đó robot sẽ dừng và quay lại, giảm thiểu tối đa khả năng bị rơi hỏng. Ngoài ra, thiết bị có thể hút và vệ sinh các bề mặt khác nhau như sàn gạch, sàn gỗ hoặc thảm. Máy còn tự động phát hiện thảm, tự điều chỉnh lực hút tăng cường để làm sạch thảm.!</p>
-                <h3>Ready, Touch, Action!</h3>
-                <p>Bắt đầu ghi hình một cách dễ dàng với thao tác trên màn hình. Khi ở chế độ tự quay phim, tránh ghi
-                    lại bàn tay của bạn bằng cách sử dụng bộ hẹn giờ phim, do đó máy ảnh chỉ bắt đầu lăn khi bạn đã hoàn
-                    toàn sẵn sàng để bắt đầu.</p>
-            </div>
-            <div class="imgs col col-hafl">
-                <img class="img1" src="../image/Chitiet_Rapido_r8/cambiendocao.jpg" alt="">
-            </div>
-        </div> -->
-
-        <!-- <img src="../img/M50/a850fa2ca5624e4494100275ae7687ae_M50MII-connectivity-banner.jpg" alt=""> -->
-
-        <!-- <div class="text-top row">
-            <div class="product-1 box-shadow col col-third">
-
-                <img src="../img/M50/126eaca048c44d4bb41332d307f0e497_wifi-bluetooth.jpg" alt="">
-
-                <p>
-                    <b>Kết nối không dây</b> <br> <br>
-                    Với Wi-Fi tích hợp, bạn có thể truyền ảnh tự động và thuận tiện từ EOS M50 Mark II sang các thiết bị
-                    thông minh ngay cả khi đang di chuyển, hoặc kết nối với máy in không dây (ví dụ: Selphy Square QX10)
-                    và in ảnh ngay lập tức!
-                    <br> <br>
-                    Bạn cũng có thể ghép nối máy ảnh với điện thoại thông minh qua Wi-Fi hoặc Bluetooth để chụp từ xa,
-                    một thủ thuật tiện dụng để chụp ảnh nhóm.
-                </p>
-            </div>
-
-            <div class="product-1 box-shadow col col-third">
-
-                <img src="../img/M50/788c58b224b4472a8537bac22f8ee057_livestreaming.jpg" alt="">
-
-                <p>
-                    <b>YouTube Live Streaming</b> <br> <br>
-                    Với kết nối Wi-Fi ổn định, bạn có thể thu hút khán giả trong thời gian thực một cách thuận tiện bằng
-                    cách phát trực tiếp trực tiếp* từ EOS M50 Mark II đến kênh YouTube của bạn.EOS M50 Mark II cũng có
-                    thể được sử dụng như một webcam chất lượng cao cho hội nghị web và phát trực tiếp trên các nền tảng
-                    khác bằng cách cài đặt EOS Webcam Utility trên PC của bạn.
-                    <br> <br>
-                    <i>*Cần có ít nhất 1000 người đăng ký kênh YouTube. Chỉ hỗ trợ sự kiện trực tiếp đã lên lịch. </i>
-                    <br> <br>
-                    <i>*Yêu cầu này không áp dụng cho phát trực tiếp qua EOS Webcam Utility.</i>
-                </p>
-            </div>
-
-            <div class="product-1 box-shadow col col-third">
-
-                <img src="../img/M50/3bde407bfd0c4417993a225334dc738a_image-canon.jpg" alt="">
-
-                <p>
-                    <b>Lưu Trữ Đám Mây</b> <br> <br>
-                    Tự động tải hình ảnh và tệp video với chất lượng ban đầu từ EOS M50 Mark II lên nền tảng lưu trữ dựa
-                    trên đám mây image.canon để dễ dàng truy cập mọi lúc mọi nơi, từ PC hoặc thiết bị thông minh của
-                    bạn.
-                    <br> <br>
-                    Image.canon cũng tương thích với các dịch vụ của bên thứ ba như Google Drive, YouTube và Adobe
-                    Photoshop Lightroom.
-                    <br> <br>
-                    *Thông tin có thể thay đổi. Tham khảo thông https://image.canon/ để biết thông tin mới nhất.
-                </p>
-            </div>
-        </div> -->
     </div>
 
     <div id="content-bottom">

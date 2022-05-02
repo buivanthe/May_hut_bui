@@ -1,5 +1,5 @@
 #noi-dung{
-    width: 100%;
+    width: 70%;
     position: relative;
 }
 #noi-dung .ngay-thang{
@@ -9,18 +9,38 @@
     margin: 3% 0 0 5%;
     
 }
+
 #noi-dung .ten-su-kien{
-    font-size: 32px;
     color: black;
     margin: 3% 0 0 5%;
+    text-align: justify;
 }
+#noi-dung .ten-su-kien h2{
+    font-size:xx-large    
+
+}
+#noi-dung .ten-su-kien p{
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+#noi-dung .ten-su-kien ul{
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+
+}
+
 #noi-dung .img-su-kien{
-    width: 100%;
+    width: 130%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-#noi-dung .img-su-kien img,
-#noi-dung .text-su-kien p
+#noi-dung .img-su-kien img
 {
-    width: 50%;
     margin-left: 25%;
 }
 #noi-dung .chuyen-trang-right{
@@ -41,10 +61,10 @@
     left: 5%;
     z-index: 5;
 }
-#noi-dung .text-su-kien
+/* #noi-dung .text-su-kien
 {
     margin-top: 3%;
     text-align: center;
     opacity: 0.8;
     margin-bottom: 5%;
-}
+} */

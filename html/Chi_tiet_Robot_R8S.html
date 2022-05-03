@@ -145,14 +145,13 @@
                 <div id="khoi-slider">
                     <div id="slider">
                         <img id="img" onclick="changeImage1()"
-                        src="../image/Chitiet_Rapido_r8/R8_1.jpg" alt="" width="1000px" height="500px">
+                        src="../image/Chitiet_Rapido_r8/R8_1.jpg" alt="">
                     </div>
                  </div>
-    
                 <script>
                     var index = 1;
                     changeImage1 = function () {
-                        var imgs = [".../image/Chitiet_Rapido_r8/R8_1.jpg",
+                        var imgs = ["../image/Chitiet_Rapido_r8/R8_1.jpg",
                                     "../image/Chitiet_Rapido_r8/R8_2.jpg",
                                     "../image/Chitiet_Rapido_r8/R8_3.jpg",
                                     "../image/Chitiet_Rapido_r8/R8_4.jpg"
@@ -163,7 +162,7 @@
                             index = 0;
                         }
                     }
-                    setInterval(changeImage1, 1700);
+                    setInterval(changeImage1, 1000);
                 </script>
         </div> 
 

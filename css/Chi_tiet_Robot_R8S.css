@@ -31,24 +31,60 @@
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
+    position: relative;
 
+}
+#content-0 #khoi-slider{
+    left: 25%;
+    right: 25%;
 }
 
 #content-0 h1{
-    margin: 6% 0 3% 7%;
+    margin: 3% 0 3% 0 ;
     color:  rgba(0, 0, 0, 0.7);
 }
-
+/* Css hình ahr bên Robot hút bụi Rapido R8S */
 #content-0 img{
-    width: 960px;
+    width: 560px;
     height: 500px;
  }
+ /* css hình ảnh bên Robot hút bụi Shimono RS38B */
+ #content-0 #hinhanh{
+    width: 960px;
+    height: 500px;
+}
+ #content-0 i:first-child{
+     position: absolute;
+     top: 50%;
+     left: 25%;
+     color:black;
+     font-size: 40px;
 
-#khoi-slider #slider{
-    padding-left: 10%;
-    padding-right: 5%;
+ }
+ #content-0 i:last-child{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    color: black;
+    font-size: 40px;
 
 }
+#content-0 #dem{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* #content-0 .border{
+    border: 2px solid black;
+     border-radius: 1px 1px 1px 1px;
+} */
+
+/* #khoi-slider #slider{
+    padding-left: 10%;
+    padding-right: 10%;
+
+} */
 
 #content-1{
     text-align: center;
@@ -61,11 +97,11 @@
 }
 
 #content-1 .text h3{
-    margin: 3% 0 3% 7%;
+    margin: 3% 0 3% 0;
     color:  rgba(0, 0, 0, 0.5);
 }
 #content-1 .text p{
-    margin: 3% 0 3% 7%;
+    margin: 3% 0 3% 0;
 }
 
 #content-1 img{
@@ -84,11 +120,11 @@
 
 }
 #content-2 .text h3{
-    margin: 3% 0 3% 7%;
+    margin: 3% 0 3% 0;
     color:  rgba(0, 0, 0, 0.5);
 }
 #content-2 .text p{
-    margin: 3% 0 3% 7%;
+    margin: 3% 0 3% 0;
 }
 
 #content-2 img{

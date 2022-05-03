@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot hút bụi Shimono RS38B</title>
+    <!-- <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="../css/Home.css">
     <link rel="stylesheet" href="../icon/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="../icon/fontawesome-free-5.15.3-web/css/all.min.css">
@@ -146,14 +147,19 @@
         </div>
        
         <div id="content-0" class="row">
-                <h1>Robot hút bụi Rapido R8S</h1>
-
-                <div>
-                    <button onclick="prev()"> Ảnh trước </button>
-                    <img id="slider" src="../image/Chi_tiet_Shimono/1.jpg">
-                    <button onclick="next()"> Ảnh sau </button>
+                <h1>Robot hút bụi Shimono RS38B</h1>
+                <!-- <div class="border"> -->
+                    
+                <img id="hinhanh" src="../image/Chi_tiet_Shimono/1.jpg" alt="" >
+                <div class="dieuhuong">
+                    <!-- <button onclick="prev()"> Ảnh trước </button>
+                    <img id="hinhanh" src="../image/Chi_tiet_Shimono/1.jpg">
+                    <button onclick="next()"> Ảnh sau </button> -->
+                    <i class="ti-angle-double-left" onclick="prev()"></i>
+                    <i class="ti-angle-double-right" onclick="next()"></i>
                 </div>
-
+                <div id="dem">1/5</div>
+                <!-- </div> -->
                 <script>
                     var images = [
                             "../image/Chi_tiet_Shimono/1.jpg",
@@ -162,27 +168,34 @@
                             "../image/Chi_tiet_Shimono/4.jpg",
                             "../image/Chi_tiet_Shimono/5.jpg"
                                 ];
-                   var num = 0;
-
+                   var num = 1;
+                
                 function next() {
-                    var slider = document.getElementById("slider");
+                    var hinhanh = document.getElementById("hinhanh");
                     num++;
                     if(num >= images.length) {
                         num = 0;
                     }
-                    slider.src = images[num];
-                }
+                    hinhanh.src = images[num];
+                    document.getElementById("dem").innerHTML = (num + 1) + "/" + images.length;
 
+                }
                 function prev() {
-                    var slider = document.getElementById("slider");
+                    var hinhanh = document.getElementById("hinhanh");
                     num--;
                     if(num < 0) {
                         num = images.length-1;
                     }
-                    slider.src = images[num];
+                    hinhanh.src = images[num];
+                    document.getElementById("dem").innerHTML = (num + 1) + "/" + images.length;
+
                }
+
+            
                 </script>
         </div> 
+
+        
 
         <div id="content-1" class="row">
             <div class="text">

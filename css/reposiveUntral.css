@@ -2,16 +2,16 @@
     .text-top .product-1 {
         min-height: 550px;
     }
-    #nav-may-anh{
+    /* #nav-may-anh{
         height: 166px;
     }
     #nav-may-anh .into-feces .text {
         top: 120px;
-    }
-    #content-may-anh .product .ten-san-pham{
+    } */
+    #content-hut-bui .product .ten-san-pham{
         margin-top: 5%;
     }
-    #content-may-anh .product .gioi-thieu{
+    #content-hut-bui .product .gioi-thieu{
         margin-bottom: -70px;
     }
     #nav p a{

@@ -18,20 +18,20 @@
     .tieude p {
         padding-top: 26px;
     }
-    #content-may-anh .product .gioi-thieu ul {
+    #content-hut-bui .product .gioi-thieu ul {
         display: none;
     }
-    #content-may-anh .product {
+    #content-hut-bui .product {
         min-height: 400px;
     }
-    #content-may-anh .product .ten-san-pham {
+    #content-hut-bui .product .ten-san-pham {
         top: 35%;
     }
-    #content-may-anh .product .gia-san-pham {
+    #content-hut-bui .product .gia-san-pham {
         bottom: 20%;
         left: 5px;
     }
-    #content-may-anh .product .button {
+    #content-hut-bui .product .button {
         padding: 5px 27px;
         bottom: 9%;
         right: 11%;

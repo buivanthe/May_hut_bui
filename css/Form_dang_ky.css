@@ -9,8 +9,9 @@ input{
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-image: url(../img/background.png),url(../img/25885320550_744417992c_o.jpg);
+    /* background-image: url(../img/background.png),url(../img/25885320550_744417992c_o.jpg); */
 }
+
 #content-dang-ky p{
     color: white;
     font-weight: bold;

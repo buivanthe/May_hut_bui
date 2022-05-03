@@ -39,6 +39,11 @@
     color:  rgba(0, 0, 0, 0.7);
 }
 
+#content-0 img{
+    width: 960px;
+    height: 500px;
+ }
+
 #khoi-slider #slider{
     padding-left: 10%;
     padding-right: 5%;

@@ -5,7 +5,7 @@ $(document).ready(function(){
         if (regten.test(ten)) {
             $("#erten").html("(*)");
         } else {
-            $("#erten").html("Chữ đầu viết hoa bạn nha");
+            $("#erten").html("Chữ đầu viết hoa");
         }
     })
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
         if (regemail.test(email)) {
             $("#eremail").html("(*)");
         } else {
-            $("#eremail").html("Email chưa đúng nha");
+            $("#eremail").html("Email chưa đúng");
         }
     })
 

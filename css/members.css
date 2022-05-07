@@ -90,14 +90,14 @@ ul {
   text-decoration: none;
   line-height: 70px;
 }
-.img-the p, .img-huan p{
+/* .img-the p, .img-huan p{
   position: absolute;
   color: var(--green-color);
   margin-left: -30px;
   margin-top: -10px;
   text-align: center;
   font-style: italic;
-}
+} */
 .img-the img:hover, .img-huan img:hover{
   border: 3px solid var(--green-color);
 }

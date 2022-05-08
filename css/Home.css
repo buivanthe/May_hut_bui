@@ -468,9 +468,11 @@ body{
 }
 .button-home div{
     opacity: 0.5;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    /* position: absolute; */
+    bottom: 0;
     right: 20px;
+    z-index: 1;
 }
 .button-home div:hover a{
     color: chocolate;
@@ -486,6 +488,7 @@ body{
     border-radius: 50px;
     padding: 20px;
     margin-left: 26px;
+    /* position: fixed; */
 }
 .button-home div p{
     margin-top: 25px;

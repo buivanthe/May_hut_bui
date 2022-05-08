@@ -1,53 +1,15 @@
-/* #nav-may-anh{
-    width: 90%;
-    margin-left: 5%;
-    display: flex;
-    margin-top: 2%;
-} */
 
-/* #nav-may-anh .into-feces{
-    width: 10% ;
-    height: 120px;
-    margin-left: 3%;
-    position: relative;
-} */
-/* .Gach-chan{
-    border-bottom: 2px solid red;
-} */
-/* 
-#nav-may-anh .into-feces .img{
-    position: absolute;
-    top: 0;
-}
-#nav-may-anh .into-feces .img img.margin{
-    margin-left: 15%;
-    width: 70%;
-    height: 70%;
-}
-#nav-may-anh .into-feces .img img.padding{
-    width: 70%;
-    padding-top: 10%;
-}
-#nav-may-anh .into-feces .text{
-    position: absolute;
-    bottom: 0;
-    left: 5px;
-    min-height: 45px;
-}
-#nav-may-anh .into-feces .text p{
-    text-align: center;
-}
-#nav-may-anh .into-feces .text p a{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 18px;
-} */
 /* CONTENT hut bui */
+#slider{
+    width:100%;
+}
 #slider #image{
-    width: 180%;
-    height: 525px;
-    margin-left: 1%;
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    /* margin-left: 1%;
     margin-top: 1%;
-    margin-right: 1%;
+    margin-right: 1%; */
 }
 
 #content-hut-bui{
